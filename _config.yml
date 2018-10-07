@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://le4ker.github.io"
+url: "https://airithe.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -170,8 +170,6 @@ social:
     url: "https://twitter.com/"
   - title: "github"
     url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
   - title: "rss"
     url: "/feed.xml"
 
@@ -186,8 +184,8 @@ err-404-img: "/img/labtocat.png"
 ##################
 
 keybase-username: johnsmith
-keybase-in-social: True
-keybase-in-footer: True
+keybase-in-social: False
+keybase-in-footer: False
 
 ################################################################################
 
@@ -214,6 +212,6 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-paginate
   - jemoji
